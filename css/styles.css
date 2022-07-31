@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer a{
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:visited {
+    color: brown;
+}
+
+body{
+    font-family: "Verdana", sans-serif;
+    background-image: url(/image/background-img.jpg);
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: Impact, serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, serif;
+}
+
+p{
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.divider {
+    color: brown;
+    border: 2px solid brown;
+    margin: 20px 0;
+}
+
+.container{
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: burlywood;
+    padding: 20px;
+
+}
+
+.italics{
+    font-style: italic;
+    text-align: center;
+}
+
+.main h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.flavour, .dessert{
+    text-align: left;
+    width: 75%;
+}
+
+.price{
+    float: right;
+    width: 25%;
+}
+
+footer{
+    font-size: 16px;
+}
+
+footer .link{
+    margin-bottom: 10px;
+}
+
